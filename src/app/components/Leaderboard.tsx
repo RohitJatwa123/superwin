@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Trophy, Crown, Star, Award, Target, Gift, Users, Zap } from 'lucide-react';
+import { Trophy, Crown, Star, Award, Target } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -148,10 +148,10 @@ export default function Leaderboard() {
           <div ref={contentRef} className="text-center lg:text-left bg-emerald-900/40 backdrop-blur-sm rounded-2xl p-8 border border-emerald-800/30">
             <div className="flex flex-col gap-2 mb-8">
               <p className="text-lg text-emerald-100">
-                Join the elite ranks of SuperWin's most successful players. Our top rankers have won over <span className="text-emerald-400 font-semibold">₹50,000,000</span> in prizes this month!
+                Join the elite ranks of SuperWin&apos;s most successful players. Our top rankers have won over <span className="text-emerald-400 font-semibold">₹50,000,000</span> in prizes this month!
               </p>
               <p className="text-base text-emerald-200">
-                Top players like <span className="text-white font-medium">Alex888</span> and <span className="text-white font-medium">WinMaster</span> started just like you. Now they're earning massive rewards daily through tournaments and special events.
+                Top players like <span className="text-white font-medium">Alex888</span> and <span className="text-white font-medium">WinMaster</span> started just like you. Now they&apos;re earning massive rewards daily through tournaments and special events.
               </p>
               <div className="mt-2 flex flex-col sm:flex-row items-center gap-4 text-sm text-emerald-300">
                 <div className="flex items-center gap-2">
