@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import Image from "next/image";
-import { Apple, PlaySquare } from 'lucide-react';
+import React from 'react';
 
 const featureImages = [
   "/images/sup12.png",
