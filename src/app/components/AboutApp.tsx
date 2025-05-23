@@ -65,26 +65,7 @@ export default function AboutApp() {
             Experience the thrill of gaming with our beautifully designed app. Win real money and collect rewards daily!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="#"
-              className="w-full sm:w-auto bg-emerald-600 text-white border-none hover:bg-emerald-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg flex items-center justify-center gap-3 transition-colors duration-300"
-            >
-              <Apple className="h-6 w-6" />
-              <div className="flex flex-col items-start leading-none">
-                <span className="text-xs text-emerald-100">Download on the</span>
-                <span>App Store</span>
-              </div>
-            </a>
-            <a
-              href="#"
-              className="w-full sm:w-auto bg-emerald-600 text-white border-none hover:bg-emerald-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg flex items-center justify-center gap-3 transition-colors duration-300"
-            >
-              <PlaySquare className="h-6 w-6" />
-              <div className="flex flex-col items-start leading-none">
-                <span className="text-xs text-emerald-100">GET IT ON</span>
-                <span>Play Store</span>
-              </div>
-            </a>
+           
           </div>
         </div>
 
@@ -247,4 +228,4 @@ export default function AboutApp() {
       </div>
     </section>
   );
-} 
+}
